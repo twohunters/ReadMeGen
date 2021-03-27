@@ -1,0 +1,22 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "A command-line application that generates README markdown files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twohunters/ReadMeGen.git"
+  },
+  "author": "Jason Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twohunters/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/twohunters/ReadMeGen#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
