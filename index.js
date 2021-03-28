@@ -67,6 +67,21 @@ const questions = [
         type: "input",
         name: "license",
         message: "Enter licensing information here."
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "How should people reach out about contributing to this project?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Describe any kind of testing included."
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email."
     }]
 
 function writeToFile(fileName, data) {
@@ -74,7 +89,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("README.md has been generated.")
+        console.log("exampleREADME.md has been generated.")
     });
 }
 
@@ -82,7 +97,7 @@ async function init() {
     try {
         const data = await inquirer.prompt(questions);
         const markdownContent = generateMarkdown(data);
-        await writeFileAsync("newREADME.md", markdownContent);
+        await writeFileAsync("exampleREADME.md", markdownContent);
         } catch(err) {
             throw(err);
         }
