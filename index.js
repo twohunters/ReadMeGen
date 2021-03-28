@@ -64,9 +64,17 @@ const questions = [
         message: "List collaborators, third-party assets, or followed tutorials here."
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "Enter licensing information here."
+        message: "Choose a license for your project.",
+        choices: [
+            "Academic",
+            "Apache",
+            "ISC",
+            "MIT",
+            "Mozilla",
+            "Open"
+        ]
     },
     {
         type: "input",

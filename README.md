@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a markdown file generator for quickly writing a README for new GitHub repositories.
+This is a markdown file generator for quickly writing a README for new GitHub repositories. It operates entirely within command lines either in a Command Prompt or Terminal.
 
 
 ## Installation
@@ -14,12 +14,13 @@ Type the following into your terminal to copy this repository:
 
 Run `index.js` in a Command Prompt or your Terminal
 
-For further instructions, visit https://help.github.com.
+To see an example, watch this [tutorial](https://github.com/twohunters/ReadMeGen/blob/main/assets/images/run.gif) of how the [README](https://github.com/twohunters/ReadMeGen/blob/main/assets/images/readme.gif) is generated.
 
 
 ## Usage
 
-~video goes here~
+![run](./assets/images/run.gif)
+![readme](./assets/images/readme.gif)
 
 
 ## Credits

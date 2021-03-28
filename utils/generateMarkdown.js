@@ -18,6 +18,7 @@ function generateMarkdown(data) {
 
 
   ## Installation
+  
   ${data.installation}
 
 
@@ -33,7 +34,9 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+  (https://img.shields.io/badge/license-${data.license}-brightgreen)
+
+  This project is covered under the ${data.license} license.
 
 
   ## Contributing
@@ -50,7 +53,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  Email me at ${data.email} and find me on Github: [${data.username}](https://github.com/${data.username}/${data.repository}).
+  Feel free to email me at ${data.email} with any questions, and find me on Github: [${data.username}](https://github.com/${data.username}/${data.repository}).
   `;
 }
 
